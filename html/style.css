@@ -1,0 +1,34 @@
+body {
+	background: lightcyan;
+	width: 800px;		/*Set the body width to 800 pixels*/
+	margin: 200px auto;
+	font-family: 'Indie Flower', cursive;
+}
+h1 {
+	color: maroon;
+	text-align: center;
+	font-size: 3.5em;
+}p {
+	color: #ff0000;		
+	border: 1px solid gray;
+	padding: 10px;
+}
+p.first {
+	color: red;
+	margin: 10px;
+	padding: 20px;
+}
+p.second {
+	color: blue;
+	margin: 10px;
+	padding: 20px;
+}
+div {
+	border: 5px solid maroon;
+	text-align: center;
+	padding: 5px;
+}
+ol {
+	border: 5px solid darksalmon;
+	border-radius: 10px;
+}
