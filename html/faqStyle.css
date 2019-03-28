@@ -1,0 +1,45 @@
+body {
+	margin: 20px;
+	margin-left: 50px;
+	background: lightcyan;
+}
+header {
+	text-align: center;
+	border: 1px solid gray;
+	padding: 25px;
+	height: 15%
+}
+footer {
+	border: 1px solid gray;
+	height: 20%;
+}
+main {
+	height: 60%;
+	padding-left: 15%;
+}
+div.columnleft {
+	width: 39%;
+	float: left;
+	padding-left: 11%;
+	line-height: 140%;
+}
+div.columnright {
+	width: 50%;
+	float: right;
+	line-height: 140%;
+}
+
+.links {
+	float: right;
+	width: 50%;
+}
+.logo {
+	float:left;
+	width: 50%;
+	font-size: x-large;
+	font-style: italic;
+	color: darkgreen;
+}
+div.columnright div.foothead {
+	padding-left: 11%;
+}
