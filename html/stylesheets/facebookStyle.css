@@ -1,0 +1,13 @@
+body {
+	margin: 20px;
+	background: lightcyan;
+}
+
+section.comments {
+	border-width: medium;
+	border-style: groove;
+	border-color: gray;
+	text-align: center;
+}
+
+
