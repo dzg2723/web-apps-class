@@ -8,6 +8,12 @@ var main = function() {
 				"cook spaghetti",
 				"change the world"];
 
+	$content = $("<ul>");
+	for (i=toDos.length-1; i >= 0; i--) {
+		$content.append($("<li>").text(toDos[i]));
+	}
+	$("main .content").append($content);
+
 	//event handler for when first tab is clicked
 	$(".tabs a:nth-child(1)").on("click", function() {
 		
